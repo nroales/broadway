@@ -2,12 +2,28 @@ body {
   font-family: Helvetica;
 }
 
-#header {
+h1 {
   font-size: 70px;
   font-weight: bold;
   color: white;
   background-image: url("../images/the-flatiron-building.png");
   text-align: center;
+}
+
+#header {
+  color: white;
+  background-image: url("../images/the-flatiron-building.png");
+  text-align: center;
+  font-size: 18px;
+}
+
+.menu {
+  color: white
+}
+
+.menu a {
+  color: white;
+  font-size: 18px;
 }
 
 h2 {
@@ -24,4 +40,19 @@ h3 {
 
 p {
   text-align: center
+}
+
+#bar {
+  font-size: 23px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  background-image: url("../images/the-flatiron-building.png");
+}
+
+#footer {
+  font-size: 11px;
+  color: white;
+  background-color: dimgray;
+  text-align: left;
 }
